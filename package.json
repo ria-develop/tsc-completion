@@ -1,0 +1,31 @@
+{
+  "author": "Michał Grzegorzewski",
+  "bin": {
+    "tsc-completion": "bin/cli.mjs"
+  },
+  "dependencies": {
+    "typescript": "^5.4.3"
+  },
+  "description": "tsc-completion is a command-line tool providing bash completion for the TypeScript compiler (TSC). It greatly enhances your TypeScript development experience by helping you easily recall and apply various TSC command options in your terminal.",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "tsc-completion",
+    "tsc bash",
+    "Typescript Completion"
+  ],
+  "license": "MIT",
+  "main": "tsc-completion.mjs",
+  "name": "@ria-develop/tsc-completion",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ria-develop/tsc-completion.git"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
